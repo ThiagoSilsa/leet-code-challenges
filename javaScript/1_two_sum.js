@@ -5,14 +5,11 @@ const target = 9;
 /*
     TwoSum
     Pass for each item in num
-    for each item, calculate de value to sum to achieve target number
-    if a key with the value exist, print the actual index and the value od the key
+    for each item, save de value to sum to achieve target number in a object
+    if a key with the value exist, return the actual index and the value of the key
     else:
-    Save value and index of item in dict
-
+    Save value and index of item in dict on continue
  */
-
-// Init disct
 
 var twoSum = function (nums, target) {
   let saveNums = {};
